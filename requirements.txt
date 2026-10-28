@@ -1,0 +1,15 @@
+# Reference interpreter: Python 3.9.13 (original project environment).
+# Direct dependencies for training and evaluation.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+torch==2.5.1
+tqdm==4.67.1
+
+# Install in an activated Python environment:
+# python -m pip install -r requirements.txt
+
+# To match the original NVIDIA CUDA 12.1 build, install PyTorch first:
+# python -m pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# python -m pip install -r requirements.txt
+# The CUDA build requires a compatible NVIDIA driver.
